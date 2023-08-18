@@ -7,6 +7,24 @@ pipeline {
       }
     }
 
+    stage('Build') {
+      steps {
+        sh 'echo ""'
+      }
+    }
+
+    stage('DeploytoTest') {
+      steps {
+        sh 'echo""'
+      }
+    }
+
+    stage('DeploytoProd') {
+      steps {
+        sh 'echo ""'
+      }
+    }
+
   }
   tools {
     maven 'Maven'
